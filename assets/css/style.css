@@ -9,4 +9,52 @@
 
 .navbar-brand{
     font-family: 'vigaregular';
+    font-size: 32px !important;
 }
+
+.nav-link{
+    margin: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 20px !important;
+}
+
+
+
+
+
+/* Dekstop Mode */
+@media (min-width: 992px) { 
+    .nav-link{
+        text-transform: uppercase;
+    }
+
+    .nav-link:hover::after{
+        content: "";
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+ }
