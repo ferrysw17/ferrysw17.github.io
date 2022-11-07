@@ -19,12 +19,22 @@
 .jumbotron{
     background-image: url(../img/jumbotron-bg.jpg);
     background-size: cover;
+    background-position: 0 -230px;
+    background-repeat: no-repeat;
     height: 640px;
     margin-top: -75px;
+    text-align: center;
 }
 
 .jumbotron .display-4{
-    
+    margin-top: 150px;
+    font-weight: 200;
+    filter: drop-shadow(5px 5px 4px black);
+}
+
+.jumbotron .display-4 span{
+    font-size: 64px;
+    font-weight: 500;
 }
 
 
