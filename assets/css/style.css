@@ -19,8 +19,6 @@
 .jumbotron{
     background-image: url(../img/jumbotron-bg.jpg);
     background-size: cover;
-    background-position: 0 -230px;
-    background-repeat: no-repeat;
     height: 640px;
     margin-top: -75px;
     text-align: center;
@@ -82,5 +80,10 @@
         margin: auto;
         padding-bottom: 5px;
         margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        background-position: 0 -230px;
+        background-repeat: no-repeat;
     }
  }
