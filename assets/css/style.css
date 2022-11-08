@@ -20,18 +20,18 @@
     background-image: url(../img/jumbotron-bg.jpg);
     background-size: cover;
     height: 640px;
-    margin-top: -75px;
     text-align: center;
+    background-position: center;
 }
 
 .jumbotron .display-4{
     margin-top: 150px;
     font-weight: 200;
     filter: drop-shadow(5px 5px 4px black);
+    font-size: 32px;
 }
 
 .jumbotron .display-4 span{
-    font-size: 64px;
     font-weight: 500;
 }
 
@@ -80,5 +80,13 @@
         margin: auto;
         padding-bottom: 5px;
         margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+    }
+
+    .jumbotron .display-4{
+        font-size: 64px;
     }
  }
