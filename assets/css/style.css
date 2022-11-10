@@ -7,6 +7,10 @@
 
 }
 
+html{
+    overflow-x: hidden;
+}
+
 /* Navbar */
 
 .navbar{
@@ -111,12 +115,69 @@
     font-size: 18px;
     color: #acacac;
     font-weight: 200;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
+/* Testimonial */
+.testimonial{
+    margin-top: 100px;
+}
 
+.testimonial h5{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+    font-style: italic;
 
+}
 
+.figure{
+    text-align: center;
+}
+
+.figure img{
+    width: 50px;
+    margin: 40px 15px 10px;
+    opacity: .6;
+    align-items: center;
+}
+
+.figure img.utama{
+    width: 80px;
+    opacity: 1;
+    margin-top: 25px;
+}
+
+.figure h5{
+    font-size: 16px !important;
+    font-weight: bold;
+    font-style: normal;
+    color: #1c2c5d;
+}
+
+.figure p{
+    font-size: 12px;
+    color: #acacac;
+    margin-top: -5px;
+}
+
+/* footer */
+
+.row.footer{
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.footer p{
+    color: #ffffff;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer a{
+    text-decoration: none;
+}
 
 
 
@@ -177,4 +238,17 @@
     .row.workingspace{
         text-align: left;
     }
+
+    .testimonial h5{
+        font-size: 32px;
+    }
+
+    .figure img{
+        width: 60px;
+    }
+
+    .figure img.utama{
+        width: 90px;
+    }
+
  }
