@@ -8,7 +8,12 @@
 }
 
 html{
+    position: relative;
     overflow-x: hidden;
+}
+
+body{
+    margin-bottom: 100px;
 }
 
 /* Navbar */
@@ -121,6 +126,7 @@ html{
 /* Testimonial */
 .testimonial{
     margin-top: 100px;
+    min-height: 500px;
 }
 
 .testimonial h5{
@@ -133,6 +139,7 @@ html{
 
 .figure{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .figure img{
@@ -163,22 +170,14 @@ html{
 
 /* footer */
 
-.row.footer{
-    margin-top: 100px;
-    background-color: rgba(0, 0, 0, .4);
+footer{
+    background-color: #0B63DC;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    color: white;
+    padding-top: 40px;
 }
-
-.footer p{
-    color: #ffffff;
-    font-size: 18px;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.footer a{
-    text-decoration: none;
-}
-
 
 
 
