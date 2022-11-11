@@ -10,6 +10,11 @@
 html{
     position: relative;
     overflow-x: hidden;
+    position: relative;
+}
+
+body{
+    margin-bottom: 100px;
 }
 
 body{
@@ -120,65 +125,77 @@ body{
     font-size: 18px;
     color: #acacac;
     font-weight: 200;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 /* Testimonial */
+
 .testimonial{
     margin-top: 100px;
     min-height: 500px;
 }
 
 .testimonial h5{
-    text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 200;
     font-style: italic;
-
 }
 
 .figure{
-    text-align: center;
-    margin-bottom: 100px;
+    margin-top: 40px;
 }
 
 .figure img{
-    width: 50px;
-    margin: 40px 15px 10px;
+    width: 60px;
     opacity: .6;
-    align-items: center;
 }
 
 .figure img.utama{
-    width: 80px;
+    width: 90px;
+    margin: 20px 15px 0px;
     opacity: 1;
-    margin-top: 25px;
+    margin-top: -15px;
+
 }
 
-.figure h5{
-    font-size: 16px !important;
+.figure-caption{
+    text-align: center;
+}
+
+.figure .figure-caption h5{
+    font-size: 16px;
     font-weight: bold;
     font-style: normal;
     color: #1c2c5d;
 }
 
-.figure p{
-    font-size: 12px;
-    color: #acacac;
+.figure-caption p{
     margin-top: -5px;
 }
 
-/* footer */
+/* Footer */
 
 footer{
+    position: absolute;
     background-color: #0B63DC;
+    bottom: 0;
     width: 100%;
     height: 100px;
-    bottom: 0;
-    color: white;
     padding-top: 40px;
 }
 
+footer p{
+    color: #fff;
+}
+
+footer a{
+    color: #1c2c5d;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #fff;
+}
 
 
 
@@ -241,13 +258,4 @@ footer{
     .testimonial h5{
         font-size: 32px;
     }
-
-    .figure img{
-        width: 60px;
-    }
-
-    .figure img.utama{
-        width: 90px;
-    }
-
  }
