@@ -8,8 +8,13 @@
 }
 
 html{
+    position: relative;
     overflow-x: hidden;
     position: relative;
+}
+
+body{
+    margin-bottom: 100px;
 }
 
 body{
